@@ -41,11 +41,11 @@ resource "azurerm_resource_group" "pankajnarang" {
 } */
 
 module "vault" {
-  source = "./modules/key_vault"
-  location = var.location
+  source              = "./modules/key_vault"
+  location            = var.location
   resource_group_name = var.resource_group_name
-  tags = var.tags
-  vault_name = var.vault_name
-  object_id = var.object_id
+  tags                = var.tags
+  vault_name          = var.vault_name
+  object_id           = var.object_id
   depends_on          = [azurerm_resource_group.pankajnarang]
 }

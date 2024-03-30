@@ -15,10 +15,10 @@ variable "tags" {
 
 variable "vault_name" {
   description = "Key vault name"
-  type = string
+  type        = string
 }
 
 variable "object_id" {
   description = "The object ID of the current tenant"
-  type = string
+  type        = string
 }
