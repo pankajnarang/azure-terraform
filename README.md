@@ -9,7 +9,8 @@ To hold azure infra (IAC)
     azurerm = {
       source  = "hashicorp/azurerm"
       version = "~> 3.0.2"
-    }```
+    }
+```
 
 ## To install, upgrade and set your az subscription
 
